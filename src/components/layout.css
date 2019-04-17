@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
 
 body {
   font-family: "Rubik", sans-serif;
@@ -12,6 +12,7 @@ a {
   color: #f39d15;
   text-decoration: none;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .Hero {
@@ -44,8 +45,21 @@ a {
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.7);
+  background: #f39d15;
   padding: 9px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+
+  .Hero h1 {
+    font-size: 40px;
+  }
+
+  .Hero p {
+    font-size: 24px;
+  }
 }
