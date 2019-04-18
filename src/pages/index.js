@@ -13,7 +13,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Quote Keyboard</h1>
         <p>Instantly find cool quotes to impress your hippest friend</p>
-        <Link to="/about/">Tell me more</Link>
+        <button>Get early access</button>
       </div>
     </div>
   </Layout>
