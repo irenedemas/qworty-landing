@@ -11,7 +11,7 @@ import Section from "../components/Section"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Quote Keyboard" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Quote Keyboard" keywords={[`quote`, `keyboard`, `qworty`]} />
     <Header />
     <div className="Hero">
       <div className="HeroGroup">
@@ -20,10 +20,10 @@ const IndexPage = () => (
         <button>Get early access</button>
       </div>
     </div>
-    <Section 
-	title="Test"
-	text="Lorem ipsum"
-	/>
+    <Section
+      title="Your new favorite keyboard"
+      text="Imagine the Emoji keyboard and a quote database had a baby. Then you’ll have a pretty accurate idea of what to expect from Qworty."
+    />
   </Layout>
 )
 

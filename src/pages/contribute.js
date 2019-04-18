@@ -3,13 +3,21 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Header from "../components/header"
+import About from "../pages/about"
+import Contact from "../pages/contact"
+import Section from "../components/Section"
 
 const Contribute = () => (
   <Layout>
     <SEO title="Contribute" />
-    <h1>Contribute to QWORTY</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Header />
+    <div className="Page">
+      <div className="PageGroup">
+        <p>Provide Feedback</p>
+        <p>Buy us a coffee</p>
+      </div>
+    </div>
   </Layout>
 )
 

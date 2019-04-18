@@ -3,13 +3,24 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Header from "../components/header"
+import About from "../pages/about"
+import Contribute from "../pages/contribute"
+import Section from "../components/Section"
 
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-    <h1>Contact the QWORTY team</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Header />
+    <div className="Page">
+      <div className="PageGroup">
+        <p>
+          Want to know more about Qworty? Send us an email to{" "}
+          <a href="mailto:hi@qworty.co">hi@qworty.co</a> and persuade us to
+          share all our dirty secrets.
+        </p>
+      </div>
+    </div>
   </Layout>
 )
 

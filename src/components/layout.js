@@ -18,12 +18,14 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()} Qworty. Built in Barcelona with
-            {` `}
-            <a href="https://www.gatsbyjs.org" target="_blank">Gatsby ⚛️</a>
-          </footer>
+        <main>{children}</main>
+        <div class="footer">
+          © {new Date().getFullYear()} Qworty. Built in Barcelona with
+          {` `}
+          <a href="https://www.gatsbyjs.org" target="_blank">
+            Gatsby
+          </a>
+        </div>
       </>
     )}
   />

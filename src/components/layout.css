@@ -16,20 +16,20 @@ a {
 }
 
 a:hover {
-    color: white;
-    border-bottom: 2.5px solid;
-    margin-bottom: -2.5px;
+  color: white;
+  border-bottom: 2.5px solid;
+  margin-bottom: -2.5px;
 }
 
 .Hero {
   background-color: #291440;
-  height: 920px;
+  height: 720px;
 }
 
 .HeroGroup {
   margin: 0 auto;
   max-width: 500px;
-  padding: 150px 50px;
+  padding: 200px 56px;
   text-align: center;
 }
 
@@ -69,10 +69,69 @@ a:hover {
 }
 
 .Hero button:hover {
-    background: white;
-    color: #291440;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-    transform: translateY(-3px);
+  background: white;
+  color: #291440;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.footer {
+  background: #291440;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer a {
+  color: #f39d15;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.footer a:hover {
+  color: white;
+  border-bottom: 2px solid;
+  margin-bottom: -2px;
+}
+
+.Page {
+  background-color: #291440;
+  height: 920px;
+}
+
+.PageGroup {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 200px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.Page h1 {
+  margin: 0;
+  color: white;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.Page p {
+  color: white;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 @media (max-width: 640px) {
@@ -87,15 +146,20 @@ a:hover {
   .Hero p {
     font-size: 24px;
   }
-}
 
-@keyframes HeroAnimation {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+  .PageGroup {
+    padding: 100px 72px;
+  }
+
+  .Page h1 {
+    font-size: 32px;
+  }
+
+  .Page p {
+    font-size: 20px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
 }
