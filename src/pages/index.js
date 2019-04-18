@@ -4,9 +4,10 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
-import About from '../pages/about'
-import Contact from '../pages/contact'
-import Contribute from '../pages/contribute'
+import About from "../pages/about"
+import Contact from "../pages/contact"
+import Contribute from "../pages/contribute"
+import Section from "../components/Section"
 
 const IndexPage = () => (
   <Layout>
@@ -19,9 +20,10 @@ const IndexPage = () => (
         <button>Get early access</button>
       </div>
     </div>
-	<About />
-	<Contact />
-	<Contribute />
+    <Section 
+	title="Test"
+	text="Lorem ipsum"
+	/>
   </Layout>
 )
 
