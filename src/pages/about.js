@@ -4,9 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
-import Contact from "../pages/contact"
-import Contribute from "../pages/contribute"
-import Section from "../components/Section"
 
 const About = () => (
   <Layout>
