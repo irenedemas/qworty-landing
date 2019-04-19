@@ -28,10 +28,19 @@ const SectionTitle = styled.h3`
   font-size: 60px;
   margin: 0;
   line-height: 1.2;
+
+  @media (max-width: 640px) {
+    font-size: 40px;
+  }
 `
 
 const SectionText = styled.p`
   color: white;
+  font-size: 28px;
+
+  @media (max-width: 640px) {
+    font-size: 24px;
+  }
 `
 
 const Section = props => (

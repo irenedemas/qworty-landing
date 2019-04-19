@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <main>{children}</main>
-        <div class="footer">
+        <div className="footer">
           © {new Date().getFullYear()} Qworty. Built in Barcelona with
           {` `}
           <a href="https://www.gatsbyjs.org" target="_blank">
