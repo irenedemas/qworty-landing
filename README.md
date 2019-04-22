@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1>
   Landing page for QWORTY iOS Keyboard
 </h1>
 
