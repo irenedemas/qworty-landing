@@ -15,7 +15,9 @@ const IndexPage = () => (
           Find the right quote at the right time, <br />
           every single time
         </p>
-        <button>Get early access</button>
+        <a href="http://eepurl.com/goH-Vr" target="_blank" class="button">
+          Get early access
+        </a>
       </div>
     </div>
   </Layout>
