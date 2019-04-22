@@ -7,7 +7,7 @@ import Header from "../components/header"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="404: Page Not Found" />
     <Header />
     <div className="NotFound">
       <div className="NotFoundGroup">
