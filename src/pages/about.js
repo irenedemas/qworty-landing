@@ -12,8 +12,7 @@ const About = () => (
       <div className="PageGroup">
         <p>
           QWORTY is an iOS keyboard that gives you instant access to thousands
-          of quotes so you can easily find, edit and share them <br />— no matter the
-          platform you're using.
+          of quotes from movies, songs, books, memes, you name it. Find, edit and share any quote — no matter the app you're using.
         </p>
         <p>
           TL;DR <br />
