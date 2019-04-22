@@ -13,8 +13,8 @@ const SectionTitleGroup = styled.div`
   align-self: end;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 300px auto;
-  margin: 0 40px;
+  grid-template-columns: 500px auto;
+  margin: 0 100px;
   grid-gap: 20px;
   grid-template-rows: auto 100%;
 

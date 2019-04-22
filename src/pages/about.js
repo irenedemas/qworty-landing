@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,9 +11,14 @@ const About = () => (
     <div className="Page">
       <div className="PageGroup">
         <p>
-          Long story short: Qworty is an iOS keyboard that gives you access
-          +10,000 quotes so you can easily find, edit and share them — no matter
-          the platform you're using.
+          QWORTY is an iOS keyboard that gives you instant access to thousands
+          of quotes so you can easily find, edit and share them — no matter the
+          platform you're using.
+        </p>
+        <p>
+          TL;DR <br />
+          Imagine the Emoji keyboard and a quote database had a baby. That’s
+          QWORTY.
         </p>
       </div>
     </div>

@@ -12,9 +12,9 @@ const NotFoundPage = () => (
     <div className="NotFound">
       <div className="NotFoundGroup">
         <h1>
-          These are not the drones... <br />I mean page, you're looking for</h1>
-          <p>Try going{" "}
-          <Link to="/">home</Link> and start again
+          This is not the page you're looking for</h1>
+          <p>Go {" "}
+          <Link to="/">home</Link>, you're drunk
         </p>
       </div>
     </div>

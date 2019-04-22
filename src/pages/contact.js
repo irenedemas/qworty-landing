@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,9 +11,9 @@ const Contact = () => (
     <div className="Page">
       <div className="PageGroup">
         <p>
-          Want to know more about Qworty? Send us an email to{" "}
+          Want to know more about QWORTY? Send us an email to{" "}
           <a href="mailto:hi@qworty.co">hi@qworty.co</a> and persuade us to
-          share all our dirty secrets.
+          share our dirty secrets.
         </p>
       </div>
     </div>

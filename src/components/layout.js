@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -20,7 +19,7 @@ const Layout = ({ children }) => (
       <>
         <main>{children}</main>
         <div className="footer">
-          © {new Date().getFullYear()} Qworty. Built in Barcelona with
+          © {new Date().getFullYear()} QWORTY. Built in Barcelona with
           {` `}
           <a href="https://www.gatsbyjs.org" target="_blank">
             Gatsby
