@@ -25,6 +25,10 @@
   font-weight: 700;
 }
 
+.Header a:active {
+    text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .Header {
     padding: 15px 0;
