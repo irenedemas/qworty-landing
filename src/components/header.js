@@ -33,9 +33,9 @@ class Header extends React.Component {
       >
         <div className="HeaderGroup">
           <Link to="/">QWORTY</Link>
-          <Link to="/about" activeStyle={{ color: "white" }}>About</Link>
-          <Link to="/contact" activeStyle={{ color: "white" }}>Contact</Link>
-          <Link to="/contribute" activeStyle={{ color: "white" }}>Contribute</Link>
+          <Link to="/about" activeClassName="link-active">About</Link>
+          <Link to="/contact" activeClassName="link-active">Contact</Link>
+          <Link to="/contribute" activeClassName="link-active">Contribute</Link>
         </div>
       </div>
     )
