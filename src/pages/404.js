@@ -13,7 +13,7 @@ const NotFoundPage = () => (
       <div className="NotFoundGroup">
         <h1>This is not the page you're looking for</h1>
         <p>
-          You're drunk, go <Link to="/">home</Link>
+          Go <Link to="/">home</Link>, you're drunk
         </p>
       </div>
     </div>
