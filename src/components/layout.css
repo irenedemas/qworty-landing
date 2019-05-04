@@ -2,6 +2,7 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  background-color: #291440;
   margin: 0;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +23,6 @@ a:hover {
 }
 
 .Hero {
-  background-color: #291440;
   height: 900px;
 }
 
@@ -101,7 +101,6 @@ a:hover {
 }
 
 .Page {
-  background-color: #291440;
   height: 900px;
 }
 
