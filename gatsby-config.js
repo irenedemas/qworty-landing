@@ -29,7 +29,7 @@ module.exports = {
       },
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "src/favicon.png",
+        logo: "src/favicon.ico",
       },
       resolve: `gatsby-plugin-google-analytics`,
       options: {
