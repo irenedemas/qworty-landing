@@ -25,8 +25,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/qworty-icon.png`, // This path is relative to the root of the site.
-        cache_busting_mode: `name`,
+        cache_busting_mode: `query`,
       },
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "src/favicon.png",
+      }
 
       resolve: `gatsby-plugin-google-analytics`,
       options: {
