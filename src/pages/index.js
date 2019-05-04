@@ -6,7 +6,7 @@ import Header from "../components/header"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Quote Keyboard" keywords={[`quote`, `keyboard`, `qworty`]} />
+    <SEO title="Home" keywords={[`quote`, `keyboard`, `qworty`]} />
     <Header />
     <div className="Hero">
       <div className="HeroGroup">
