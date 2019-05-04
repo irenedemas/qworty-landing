@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `QWORTY Quote Keyboard`,
-    description: `iOS Quote Keyboard`,
+    description: `Quote Keyboard for iOS`,
     author: `@irenedemas`,
   },
   plugins: [
