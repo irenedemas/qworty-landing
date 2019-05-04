@@ -30,8 +30,7 @@ module.exports = {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "src/favicon.png",
-      }
-
+      },
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-139362992-1",
