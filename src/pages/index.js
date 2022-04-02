@@ -12,7 +12,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>QWORTY Keyboard</h1>
         <p>
-          Find the right quote at the right time, <br />
+          Find the right quote at the right moment, <br />
           every single time
         </p>
         <a href="http://eepurl.com/goH-Vr" target="_blank" class="button">
